@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_CXX_COMPILER=C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe" -G "CodeBlocks - MinGW Makefiles" "C:\Users\Asus\CLionProjects\Brown belt\Week 2\Curves hierarchy"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Asus/CLionProjects/Brown belt/Week 2/Curves hierarchy/cmake-build-debug

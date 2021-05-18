@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Asus/CLionProjects/Brown belt/Week 2/Curves hierarchy/lib/curves_hierarchy.cpp
+iostream
+-
+iomanip
+-
+vector
+-
+string
+-
+cmath
+-
+cassert
+-
+algorithm
+-
+random
+-
+ctime
+-
+omp.h
+-
+curves_hierarchy.h
+C:/Users/Asus/CLionProjects/Brown belt/Week 2/Curves hierarchy/lib/curves_hierarchy.h
+
+C:/Users/Asus/CLionProjects/Brown belt/Week 2/Curves hierarchy/lib/curves_hierarchy.h
+ostream
+-
+memory
+-
+

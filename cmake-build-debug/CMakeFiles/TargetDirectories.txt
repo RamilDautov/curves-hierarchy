@@ -1,0 +1,4 @@
+C:/Users/Asus/CLionProjects/Brown belt/Week 2/Curves hierarchy/cmake-build-debug/CMakeFiles/Curves_hierarchy.dir
+C:/Users/Asus/CLionProjects/Brown belt/Week 2/Curves hierarchy/cmake-build-debug/CMakeFiles/Curves_hierarchy_lib.dir
+C:/Users/Asus/CLionProjects/Brown belt/Week 2/Curves hierarchy/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Asus/CLionProjects/Brown belt/Week 2/Curves hierarchy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
