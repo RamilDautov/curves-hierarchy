@@ -36,7 +36,8 @@ std::vector<Curves::Curve*> PopulateAtRandom(int num);
 
 + Printing coordinates of points and derivatives of all curves in the container at parameter value `t`:
 ```cpp 
-void PrintAt(const std::vector<Curves::Curve*>& v, double t);
+template<class T>
+void PrintAt(const std::vector<T*>& v, double t);
 ```
 
 + Populating a vector of circles taken from vector of curves
