@@ -121,11 +121,14 @@ std::vector<Curves::Curve*> PopulateAtRandom(int num);
 std::vector<Curves::Circle*> FilterCircles(std::vector<Curves::Curve*>& curves);
 void SortCircles(std::vector<Curves::Circle*>& circles);
 
+template<class T>
+void PrintAt(const std::vector<T*>& v, double t){
+    for(const auto& curve : v){
+        std::cout << "Coordinate: " << curve->Get3Dpoint(t) << "Derivative: "
+                  << curve->FirstDerivative(t) << "\n";
+    }
+}
 
-void PrintAt(const std::vector<Curves::Curve*>& v, double t);
-void PrintAt(const std::vector<Curves::Circle*>& v, double t);
-void PrintAt(const std::vector<Curves::Ellipse*>& v, double t);
-void PrintAt(const std::vector<Curves::Helix*>& v, double t);
 uint32_t SumOfRadii(const std::vector<Curves::Circle*>& v);
 
 std::ostream& operator<<(std::ostream& os, const Coordinates3D& p);

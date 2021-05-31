@@ -103,39 +103,6 @@ void SortCircles(std::vector<Curves::Circle*>& circles){
     });
 };
 
-
-void PrintAt(const std::vector<Curves::Curve*>& v, double t){
-    for(const auto& curve : v){
-        std::cout << "Coordinate: " << curve->Get3Dpoint(t) << "Derivative: "
-                    << curve->FirstDerivative(t) << "\n";
-    }
-}
-
-void PrintAt(const std::vector<Curves::Circle*>& v, double t){
-    if(v.empty()) {
-        cout << "There are no circles\n";
-        return;
-    }
-    for(const auto& curve : v){
-        std::cout << "Coordinate: " << curve->Get3Dpoint(t) << "Derivative: "
-                  << curve->FirstDerivative(t) << "\n";
-    }
-}
-
-void PrintAt(const std::vector<Curves::Ellipse*>& v, double t){
-    for(const auto& curve : v){
-        std::cout << "Coordinate: " << curve->Get3Dpoint(t) << "Derivative: "
-                  << curve->FirstDerivative(t) << "\n";
-    }
-}
-
-void PrintAt(const std::vector<Curves::Helix*>& v, double t){
-    for(const auto& curve : v){
-        std::cout << "Coordinate: " << curve->Get3Dpoint(t) << "Derivative: "
-                  << curve->FirstDerivative(t) << "\n";
-    }
-}
-
 auto op = [](uint32_t lhs, const Curves::Circle* rhs){
     return lhs + rhs->GetRadius();
 };
